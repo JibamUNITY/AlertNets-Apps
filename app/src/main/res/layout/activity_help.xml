@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5C837E"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:logo="@drawable/help3"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Help"
+        app:titleMarginStart="30dp"
+        tools:layout_editor_absoluteX="-107dp" />
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="595dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="342dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:text="INSTRUCTIONS"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.602" />
+
+        <TextView
+            android:layout_width="342dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:gravity="fill_horizontal"
+            android:text="1. To report any information, click the report button."
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.602" />
+
+        <TextView
+            android:layout_width="342dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="8dp"
+            android:gravity="fill_horizontal"
+            android:text="2. Pin the location you want to report and wait until it detects the longitude and latitude. Choose a title for your report, such as ROAD DAMAGE, FLOOD, TYPHOON, etc."
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.602" />
+
+        <TextView
+            android:layout_width="342dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="8dp"
+            android:gravity="fill_horizontal"
+            android:text="3. In the report description, provide more details about your report and click the SUBMIT button."
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.602" />
+
+        <TextView
+            android:layout_width="342dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="8dp"
+            android:gravity="fill_horizontal"
+            android:text="4. To read reports submitted by other users, click the NEWS button. In the NEWS section, you can read about the reports and find the location, time, and date when each report was submitted."
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.602" />
+
+        <TextView
+            android:layout_width="342dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="8dp"
+            android:gravity="fill_horizontal"
+            android:text="5. In case of emergencies, call 999."
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.602" />
+
+        <TextView
+            android:layout_width="342dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:gravity="fill_horizontal"
+            android:text="6. For road damage, call 03-9285 2257 (ROADCARE SDN BHD) or 0326108888 (JKR)."
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.602" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="406dp"
+        android:layout_height="411dp"
+        android:layout_centerInParent="true"
+        android:alpha="0.05"
+        android:backgroundTint="#2FFFFFFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/help2" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="title_options">
+        <item>Road Damage</item>
+        <item>Flood</item>
+        <item>Accident</item>
+        <item>Typhoon</item>
+        <item>Earthquake</item>
+        <item>Landslide</item>
+        <item>Others</item>
+    </string-array>
+</resources>

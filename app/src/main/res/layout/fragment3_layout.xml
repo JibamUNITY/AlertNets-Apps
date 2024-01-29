@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Your fragment layout components go here -->
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="595dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="162dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/alif" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MUHAMMAD ALIF KHAFIFI BIN JOHAIDI"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Programme Code: CDCS240"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Group: D1CDCS2404A"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="8dp"
+            android:text="Student Number: 2022458316"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="49dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/github_logo" />
+
+        <TextView
+            android:id="@+id/websiteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:autoLink="web"
+            android:text="https://github.com/Alifkhafifi01"
+            android:textColorLink="@color/link"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
